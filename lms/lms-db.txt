@@ -1,0 +1,114 @@
+{
+  "bookList": [
+    {
+      "ISBN": 111,
+      "title": "The Great Adventure",
+      "author": "John Doe",
+      "publicationyear": 2001,
+      "genre": "Fiction",
+      "status": "Available"
+    },
+    {
+      "ISBN": 222,
+      "title": "Science Fundamentals",
+      "author": "Jane Smith",
+      "publicationyear": 2015,
+      "genre": "Science",
+      "status": "Not Available"
+    },
+    {
+      "ISBN": 333,
+      "title": "Cooking Made Easy",
+      "author": "Emily Davis",
+      "publicationyear": 2010,
+      "genre": "Cooking",
+      "status": "Available"
+    },
+    {
+      "ISBN": 444,
+      "title": "World History",
+      "author": "Michael Brown",
+      "publicationyear": 1998,
+      "genre": "History",
+      "status": "Not Available"
+    },
+    {
+      "ISBN": 555,
+      "title": "Future Technologies",
+      "author": "Sarah Green",
+      "publicationyear": 2020,
+      "genre": "Technology",
+      "status": "Available"
+    },
+    {
+      "ISBN": 9999,
+      "title": "999999",
+      "author": "9999",
+      "publicationyear": 9999,
+      "genre": "99999",
+      "status": "Availabe"
+    },
+    {
+      "ISBN": 999,
+      "title": "999",
+      "author": "99",
+      "publicationyear": 999,
+      "genre": "999",
+      "status": "Availabe"
+    }
+  ],
+  "memberList": [
+    {
+      "name": "Alice Johnson",
+      "memberid": 101,
+      "contact": 987654
+    },
+    {
+      "name": "Bob Carter",
+      "memberid": 102,
+      "contact": 912345
+    },
+    {
+      "name": "Charlie Brown",
+      "memberid": 103,
+      "contact": 998877
+    },
+    {
+      "name": "Diana Prince",
+      "memberid": 104,
+      "contact": 911122
+    },
+    {
+      "name": "Ethan Hunt",
+      "memberid": 105,
+      "contact": 900112
+    }
+  ],
+  "loanList": [
+    {
+      "memberId": 101,
+      "bookId": 111,
+      "dueDate": "10-Dec-2023"
+    },
+    {
+      "memberId": 102,
+      "bookId": 222,
+      "dueDate": "15-Dec-2023"
+    },
+    {
+      "memberId": 103,
+      "bookId": 444,
+      "dueDate": "20-Dec-2023"
+    },
+    {
+      "memberId": 104,
+      "bookId": 555,
+      "dueDate": "25-Dec-2023"
+    },
+    {
+      "memberId": 105,
+      "bookId": 333,
+      "dueDate": "30-Dec-2023"
+    }
+  ]
+}
